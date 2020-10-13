@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Curso de Angular';
+  title = 'angular-listadeseos';
+
+  agregar(titulo: HTMLInputElement)	{
+    console.log(titulo);
+    }
 }
