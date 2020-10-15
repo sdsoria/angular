@@ -1,3 +1,4 @@
+<h1>1. FORMULARIO</h1>
 <div class="container	content">
     <div class="row">
         <div class="col-md-6	offset-md-3">
@@ -26,6 +27,15 @@ nombre..." #nombre>
     </div>
     <hr class="mb-5">
     <div class="row">
+        <h1>2. CARDS</h1>
         <app-destino-viaje *ngFor="let d of destinos" [destino]="d"></app-destino-viaje>
     </div>
+
+</div>
+<P>
+<h1>3. USO DEL LISTA UL</h1>
+<div class="row">
+    <ul>
+        <li *ngFor="let d of destinos" [destino]="d">aaa</li>
+    </ul>
 </div>
