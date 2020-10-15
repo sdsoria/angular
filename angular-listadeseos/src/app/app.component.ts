@@ -8,7 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-listadeseos';
 
-  agregar(titulo: HTMLInputElement)	{
-    console.log(titulo);
-    }
 }
