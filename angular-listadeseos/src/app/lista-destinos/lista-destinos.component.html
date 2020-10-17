@@ -26,8 +26,9 @@ nombre..." #nombre>
         </div>
     </div>
     <hr class="mb-5">
+    <h1>2. CARDS</h1>
     <div class="row">
-        <h1>2. CARDS</h1>
+
         <app-destino-viaje *ngFor="let d of destinos" [destino]="d"></app-destino-viaje>
     </div>
 
@@ -35,7 +36,7 @@ nombre..." #nombre>
 <P>
 <h1>3. USO DEL LISTA UL</h1>
 <div class="row">
-    <ul>
-        <li *ngFor="let d of destinos" [destino]="d">aaa</li>
+    <ul class="list-group">
+        <li *ngFor="let d of destinos" [destino]="d" class="list-group-item">nombre.value</li>
     </ul>
 </div>
